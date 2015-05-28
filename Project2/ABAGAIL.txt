@@ -1,0 +1,55 @@
+
+
+
+https://www.youtube.com/watch?v=oFvQsArCSXo
+
+
+If you're new to Java (and, therefore, Ant) and intend to go the Java route and not the Jython route, I would suggest you spend a couple of hours for three consecutive nights as follows:
+ 
+(1) Night 1:  Download and install the Java Development Kit (JDK).  Learn how to write and compile "Hello World" in Java.  Understand what class files are and get a feel for the basic syntax.
+ 
+(2) Night 2:  Download Eclipse, setup a workspace, then add some libraries to it and build something a little more complicated.  Maybe write some code to read in data from a CSV file, then write it back out to another file.
+ 
+(3) Night 3:  Use git to pull the ABAGAIL repository from GitHub.  Download and setup Ant on your machine.  Learn how to build ABAGAIL using Ant (one small tweak will be required - I posted about it a few days ago if you search Piazza).   Go to a command-line prompt and run some of the sample tests that are included with the code base.
+ 
+Once you do all that, you'll have climbed the necessary Java learning curve.  Without that, I don't really see how you can get very far.  You're not going to be able to build, run, and test Java code by posting here on Piazza - you're going to have to bite the bullet and spend a few hours learning the basics on your own.
+
+
+
+
+
+
+
+Here are the steps I used to get an environment set up for exploring ABIGAIL for use with Java (via Netbeans IDE) on Windows 8.
+ 
+ Download and unpack latest source: https://github.com/pushkar/ABAGAIL, there's an option to download a zip file. If you're interested, it's also very easy to set up Git for Windows and clone the project. I recommend using msysgit and tortoisegit.
+Download and install Java SDK 
+Download and install Netbeans (Java SE should be fine)
+Create a new project in Netbeans
+New project...
+Java (category), Java Application, "Next"
+Give it your favorite name and finish (keep track of project location)
+Copy ABIGAIL/src to <your project root>/src
+Done 
+ 
+Click the green arrow (or F6) and you will be able to select one of the many tests to run. Right-clicking on the project in the "project explorer" will allow you to generate Javadoc (<your project root>/dist/javadoc, open index.html in a browser). 
+
+
+
+
+
+
+
+
+Demo of jython interface to ABAGAIL's neural networks
+https://github.com/pingej/omscs-demo-space
+Hi all,
+ 
+Today I coded a wrapper for the ABAGAIL neural network in python (jython). It includes a small demo and some extra stuff for computing accuracy and confusion matrices. You can find the repository here, and the wrapper is under <omscs-demo-space>/CS7641_MachineLearning/Python/Assignment2_ABAGAIL_Scikit_NeuralNetwork. As the name suggests, it's meant to be easily interfaced to scikit-learn (or pybrain) data, though you have to interface through text files because of the python/jython thing.
+ 
+I haven't tested it extensively, so there may well be bugs. But I think it's a good start.
+ 
+At present I have no idea how to substitute the optimization algorithms. If someone has demo of that I'd be happy to add it.
+ 
+-James
+

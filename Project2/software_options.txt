@@ -1,0 +1,13 @@
+WEKA Machine learning software in JAVA that you can use for your projects
+http://www.cs.waikato.ac.nz/ml/weka/
+
+Data Mining with Weka A MOOC Course: https://weka.waikato.ac.nz/explorer
+
+ABAGAIL Machine learning software in JAVA. This is hosted on my github, so you can contribute too
+https://github.com/pushkar/ABAGAIL
+
+scikit-learn A popular python library for supervised and unsupervised learning algorithms
+http://scikit-learn.org/stable/
+
+Jython
+http://www.jython.org/

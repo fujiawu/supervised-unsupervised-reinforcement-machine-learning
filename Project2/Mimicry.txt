@@ -1,0 +1,3 @@
+Mimicry Python MIMIC Library
+Hey Everyone,
+Jeff McGehee and I just finished up our Python MIMIC library. You can find it on GitHub here: https://github.com/mjs2600/mimicry and on PyPI here: https://pypi.python.org/pypi/mimicry/. You should be able to install it with pip install mimicry. We don't have much documentation yet, but the library works really well so far. We've only been working with bit strings, since that's what the assignment asks for, but it should work with all ranges of integers and extending it to continuous values should be a four line change. If anyone is interested in expanding the domains it can handle let me know, I'd be glad to help. Let us know what you think!

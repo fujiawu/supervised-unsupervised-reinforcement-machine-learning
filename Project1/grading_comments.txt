@@ -1,0 +1,45 @@
+Nice choice of dataset. Cross validation mentioned. Better include confusion matrix. Needs a conclusion paragraph.
+
+It's good to see you compared different model complexity choices (e.g. different kernels), but you can mention how the performance changes with different complexities. Also it is good that you explicitly mentioned overfitting issue and their reasons. However the Learning Curves does not look right for all the training curves. Training error should be small when training data is small.
+
++Bonus
+Really amazed at how you look into the ordering issue of car price attribute in the car dataset, and even performed a separate set of experiments. 12 bonus credits given.
+
+-------------------------------------------------------------------
+
+Breakdown:
+
+-Implementation (10/10)
+
+-Datasets (6/6)
+
+-Analysis (74/80)
+Decision Tree (14/16)
+Learning curve analysis (4/6)
+Model complexity analysis (6/6)
+Optimization & Reasoning (4/4)
+Neural Network (12/16)
+Learning curve analysis (4/6)
+Model complexity analysis (6/6)
+Optimization & Reasoning (3/4)
+DT Boosting ( 8/16)
+Learning curve analysis (4/6)
+Model complexity analysis (3/6)
+Optimization & Reasoning (1/4)
+SVM (12/16)
+Learning curve analysis (4/6)
+Model complexity analysis (6/6)
+Optimization & Reasoning (3/4)
+KNN (13/16)
+Learning curve analysis (4/6)
+Model complexity analysis (6/6)
+Optimization & Reasoning (4/4)
++Bonus (12/20)
+
+-Conclusions (0/4)
+
+-Total (90/100) *
+
+ 
+
+* Total score subject to further adjustment
